@@ -33,10 +33,16 @@ day = Day04()
 day.part1()
 day.part2()
 print()
- */
 
 print("Day 05")
 day = Day05()
+day.part1()
+day.part2()
+print()
+ */
+
+print("Day 06")
+day = Day06()
 day.part1()
 day.part2()
 print()
