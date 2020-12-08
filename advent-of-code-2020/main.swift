@@ -51,11 +51,16 @@ day = Day07()
 day.part1()
 day.part2()
 print()
- */
 
 print("Day 08")
 day = Day08()
 day.part1()
 day.part2()
 print()
+ */
 
+print("Day 09")
+day = Day09()
+day.part1()
+day.part2()
+print()

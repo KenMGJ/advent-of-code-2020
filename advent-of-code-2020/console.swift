@@ -31,13 +31,13 @@ class Console {
     var instructions = [Instruction]()
     var ptr = 0
     
-    let pattern = #"^(acc|jmp|nop) (\+|-)(\d+)$"#
+    let pattern = #"^(acc|jmp|nop) ([+-]\d+)$"#
     
     init(_ input: [String]) {
         for i in input {
-            let parsed = parseFromRegex(pattern: pattern, input: i, parts: 3)
-            if let op = Operation(rawValue: parsed[0]), let arg = Int(parsed[2]) {
-                instructions.append(Instruction(op: op, arg: arg * (parsed[1] == "+" ? 1 : -1)))
+            let parsed = parseFromRegex(pattern: pattern, input: i, parts: 2)
+            if let op = Operation(rawValue: parsed[0]), let arg = Int(parsed[1]) {
+                instructions.append(Instruction(op: op, arg: arg))
             }
         }
     }
