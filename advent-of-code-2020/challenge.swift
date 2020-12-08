@@ -38,46 +38,47 @@ extension Challenge {
         return inputToStringArray(input).map({ Array($0) })
     }
     
-    func parseFromRegex(pattern: String, input: String, parts: Int) -> [String] {
+}
 
-        /*
-         let input = """
-         pos=<0,0,0>, r=4
-         pos=<1,0,0>, r=1
-         pos=<4,0,0>, r=3
-         pos=<0,2,0>, r=1
-         pos=<0,5,0>, r=3
-         pos=<0,0,3>, r=1
-         pos=<1,1,1>, r=1
-         pos=<1,1,-2>, r=1
-         pos=<-1,3,-1>, r=1
-         """
-         
-         let pattern = #"^pos=<(-?\d+),(-?\d+),(-?\d+)>, r=(\d+)$"#
-         for i in inputToStringArray(input) {
-             let splits = splitLineWithRegex(pattern: pattern, input: i, parts: 4)
-             print("\(splits)")
-         }
-         */
-        
-        var output = [String]()
-        
-        let regex = try? NSRegularExpression(pattern: pattern, options: [])
-        let nsrange = NSRange(input.startIndex..., in: input)
+func parseFromRegex(pattern: String, input: String, parts: Int) -> [String] {
 
-        let results = regex?.matches(in: input, options: [], range: nsrange)
-        results.map { result in
-            if !result.isEmpty {
-                let r = result[0]
+    /*
+     let input = """
+     pos=<0,0,0>, r=4
+     pos=<1,0,0>, r=1
+     pos=<4,0,0>, r=3
+     pos=<0,2,0>, r=1
+     pos=<0,5,0>, r=3
+     pos=<0,0,3>, r=1
+     pos=<1,1,1>, r=1
+     pos=<1,1,-2>, r=1
+     pos=<-1,3,-1>, r=1
+     """
+     
+     let pattern = #"^pos=<(-?\d+),(-?\d+),(-?\d+)>, r=(\d+)$"#
+     for i in inputToStringArray(input) {
+         let splits = splitLineWithRegex(pattern: pattern, input: i, parts: 4)
+         print("\(splits)")
+     }
+     */
+    
+    var output = [String]()
+    
+    let regex = try? NSRegularExpression(pattern: pattern, options: [])
+    let nsrange = NSRange(input.startIndex..., in: input)
 
-                for i in 1...parts {
-                    if let range = Range(r.range(at: i), in: input) {
-                        output.append(String(input[range]))
-                    }
+    let results = regex?.matches(in: input, options: [], range: nsrange)
+    results.map { result in
+        if !result.isEmpty {
+            let r = result[0]
+
+            for i in 1...parts {
+                if let range = Range(r.range(at: i), in: input) {
+                    output.append(String(input[range]))
                 }
             }
         }
-        
-        return output
     }
+    
+    return output
 }
