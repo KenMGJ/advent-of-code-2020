@@ -75,10 +75,22 @@ day = Day11()
 day.part1()
 day.part2()
 print()
- */
 
 print("Day 12")
 day = Day12()
+day.part1()
+day.part2()
+print()
+
+print("Day 13")
+day = Day13()
+day.part1()
+day.part2()
+print()
+ */
+
+print("Day 14")
+day = Day14()
 day.part1()
 day.part2()
 print()
