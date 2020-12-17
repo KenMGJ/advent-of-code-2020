@@ -42,6 +42,8 @@
 		6FD991CD25771E84001D730C /* day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD991CC25771E84001D730C /* day02.swift */; };
 		6FDB3273257BAE26002EBAE3 /* day06-input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB3272257BAE26002EBAE3 /* day06-input.swift */; };
 		6FDB3276257BAE57002EBAE3 /* day06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB3275257BAE57002EBAE3 /* day06.swift */; };
+		6FFC77FD258B0187004285E8 /* day17-input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC77FC258B0187004285E8 /* day17-input.swift */; };
+		6FFC7800258B01B7004285E8 /* day17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC77FF258B01B7004285E8 /* day17.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -93,6 +95,8 @@
 		6FD991CC25771E84001D730C /* day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day02.swift; sourceTree = "<group>"; };
 		6FDB3272257BAE26002EBAE3 /* day06-input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day06-input.swift"; sourceTree = "<group>"; };
 		6FDB3275257BAE57002EBAE3 /* day06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day06.swift; sourceTree = "<group>"; };
+		6FFC77FC258B0187004285E8 /* day17-input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day17-input.swift"; sourceTree = "<group>"; };
+		6FFC77FF258B01B7004285E8 /* day17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day17.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 				6F0EFA5D2587999C00CA5AEA /* day14-input.swift */,
 				6F0EFA652587EBD200CA5AEA /* day15-input.swift */,
 				6FB4577F2589A2C600E01308 /* day16-input.swift */,
+				6FFC77FC258B0187004285E8 /* day17-input.swift */,
 				6FC99D3A2576793300864BA2 /* day01.swift */,
 				6FD991CC25771E84001D730C /* day02.swift */,
 				6F3C609A2577C4D000227463 /* day03.swift */,
@@ -160,6 +165,7 @@
 				6F0EFA60258799D200CA5AEA /* day14.swift */,
 				6F0EFA682587EC0000CA5AEA /* day15.swift */,
 				6FB457822589A2ED00E01308 /* day16.swift */,
+				6FFC77FF258B01B7004285E8 /* day17.swift */,
 			);
 			path = "advent-of-code-2020";
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 				6FB457832589A2ED00E01308 /* day16.swift in Sources */,
 				6F2C98D425817C1100FE93EF /* day10.swift in Sources */,
 				6F2C98D125817BE800FE93EF /* day10-input.swift in Sources */,
+				6FFC77FD258B0187004285E8 /* day17-input.swift in Sources */,
 				6FB457802589A2C600E01308 /* day16-input.swift in Sources */,
 				6F1E0C05257A6B930028B663 /* day05-input.swift in Sources */,
 				6F0EFA692587EC0000CA5AEA /* day15.swift in Sources */,
@@ -254,6 +261,7 @@
 				6F76859F25839F17004D60D0 /* day12.swift in Sources */,
 				6F1E0BF5257A58BB0028B663 /* day04-input.swift in Sources */,
 				6FD991CD25771E84001D730C /* day02.swift in Sources */,
+				6FFC7800258B01B7004285E8 /* day17.swift in Sources */,
 				6F9EA7172585164200317256 /* day13.swift in Sources */,
 				6FC99D3B2576793300864BA2 /* day01.swift in Sources */,
 			);
