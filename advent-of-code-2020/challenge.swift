@@ -82,3 +82,11 @@ func parseFromRegex(pattern: String, input: String, parts: Int) -> [String] {
     
     return output
 }
+
+func matchesRegex(pattern: String, input: String) -> Bool {
+    let regex = try? NSRegularExpression(pattern: pattern, options: [])
+    let nsrange = NSRange(input.startIndex..., in: input)
+
+    let matches = regex?.firstMatch(in: input, options: [], range: nsrange) != nil
+    return matches
+}

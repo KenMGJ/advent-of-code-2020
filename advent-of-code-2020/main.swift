@@ -111,10 +111,16 @@ day = Day17()
 day.part1()
 day.part2()
 print()
- */
 
 print("Day 18")
 day = Day18()
+day.part1()
+day.part2()
+print()
+ */
+
+print("Day 19")
+day = Day19()
 day.part1()
 day.part2()
 print()
