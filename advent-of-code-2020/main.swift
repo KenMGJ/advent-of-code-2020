@@ -130,3 +130,11 @@ day = Day20()
 day.part1()
 day.part2()
 print()
+
+/*
+print("Day 21")
+day = Day21()
+day.part1()
+day.part2()
+print()
+ */
