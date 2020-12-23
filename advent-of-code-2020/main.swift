@@ -137,4 +137,16 @@ day = Day21()
 day.part1()
 day.part2()
 print()
+
+print("Day 22")
+day = Day22()
+day.part1()
+day.part2()
+print()
  */
+
+print("Day 23")
+day = Day23()
+day.part1()
+day.part2()
+print()
