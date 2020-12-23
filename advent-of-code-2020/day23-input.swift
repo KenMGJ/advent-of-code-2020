@@ -8,7 +8,9 @@
 import Foundation
 
 let input_day23_0 = """
+389125467
 """
 
 let input_day23 = """
+871369452
 """

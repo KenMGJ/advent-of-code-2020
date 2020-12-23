@@ -37,6 +37,16 @@ extension Challenge {
     func inputToCharArrayArray(_ input: String) -> [[Character]] {
         return inputToStringArray(input).map({ Array($0) })
     }
+
+    func charArrayToIntArray(_ input: [Character]) -> [Int] {
+        var array = [Int]()
+        for c in input {
+            if let i = Int(String(c)) {
+                array.append(i)
+            }
+        }
+        return array
+    }
     
 }
 
