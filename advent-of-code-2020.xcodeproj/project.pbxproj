@@ -22,6 +22,8 @@
 		6F1E0C00257A63E40028B663 /* day03-input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E0BFF257A63E40028B663 /* day03-input.swift */; };
 		6F1E0C05257A6B930028B663 /* day05-input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E0C04257A6B930028B663 /* day05-input.swift */; };
 		6F1E0C08257A6BC40028B663 /* day05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1E0C07257A6BC40028B663 /* day05.swift */; };
+		6F2B5D87259408280093835B /* day24-input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B5D86259408280093835B /* day24-input.swift */; };
+		6F2B5D8A259408450093835B /* day24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B5D89259408450093835B /* day24.swift */; };
 		6F2C98D125817BE800FE93EF /* day10-input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2C98D025817BE800FE93EF /* day10-input.swift */; };
 		6F2C98D425817C1100FE93EF /* day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2C98D325817C1100FE93EF /* day10.swift */; };
 		6F2E9BA12592CAA500BE553D /* day22-input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E9BA02592CAA500BE553D /* day22-input.swift */; };
@@ -87,6 +89,8 @@
 		6F1E0BFF257A63E40028B663 /* day03-input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day03-input.swift"; sourceTree = "<group>"; };
 		6F1E0C04257A6B930028B663 /* day05-input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day05-input.swift"; sourceTree = "<group>"; };
 		6F1E0C07257A6BC40028B663 /* day05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day05.swift; sourceTree = "<group>"; };
+		6F2B5D86259408280093835B /* day24-input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day24-input.swift"; sourceTree = "<group>"; };
+		6F2B5D89259408450093835B /* day24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day24.swift; sourceTree = "<group>"; };
 		6F2C98D025817BE800FE93EF /* day10-input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day10-input.swift"; sourceTree = "<group>"; };
 		6F2C98D325817C1100FE93EF /* day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day10.swift; sourceTree = "<group>"; };
 		6F2E9BA02592CAA500BE553D /* day22-input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day22-input.swift"; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 				6F48BF392590D381003B7E74 /* day21-input.swift */,
 				6F2E9BA02592CAA500BE553D /* day22-input.swift */,
 				6F2E9BA82592D8C800BE553D /* day23-input.swift */,
+				6F2B5D86259408280093835B /* day24-input.swift */,
 				6FC99D3A2576793300864BA2 /* day01.swift */,
 				6FD991CC25771E84001D730C /* day02.swift */,
 				6F3C609A2577C4D000227463 /* day03.swift */,
@@ -205,6 +210,7 @@
 				6F48BF3C2590D39F003B7E74 /* day21.swift */,
 				6F2E9BA42592CAC700BE553D /* day22.swift */,
 				6F2E9BAB2592D90100BE553D /* day23.swift */,
+				6F2B5D89259408450093835B /* day24.swift */,
 			);
 			path = "advent-of-code-2020";
 			sourceTree = "<group>";
@@ -272,6 +278,7 @@
 				6F776925257FACA0007C198B /* console.swift in Sources */,
 				6F2E9BA12592CAA500BE553D /* day22-input.swift in Sources */,
 				6F7E95E3257CF7430038D8AC /* day07-input.swift in Sources */,
+				6F2B5D8A259408450093835B /* day24.swift in Sources */,
 				6F776928257FC089007C198B /* day09-input.swift in Sources */,
 				6F2E9BAC2592D90100BE553D /* day23.swift in Sources */,
 				6F110704258CFFFF00471F82 /* day19-input.swift in Sources */,
@@ -305,6 +312,7 @@
 				6F1E0C05257A6B930028B663 /* day05-input.swift in Sources */,
 				6F0EFA692587EC0000CA5AEA /* day15.swift in Sources */,
 				6F7E95E6257CF7540038D8AC /* day07.swift in Sources */,
+				6F2B5D87259408280093835B /* day24-input.swift in Sources */,
 				6F0B0C61258BDF560085DB99 /* day18.swift in Sources */,
 				6FDB3276257BAE57002EBAE3 /* day06.swift in Sources */,
 				6FC64E892582BD710027FD04 /* day11.swift in Sources */,
