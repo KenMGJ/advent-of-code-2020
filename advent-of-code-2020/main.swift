@@ -147,10 +147,16 @@ day = Day23()
 day.part1()
 day.part2()
 print()
- */
 
 print("Day 24")
 day = Day24()
+day.part1()
+day.part2()
+print()
+ */
+
+print("Day 25")
+day = Day25()
 day.part1()
 day.part2()
 print()
